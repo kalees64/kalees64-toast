@@ -4,13 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lib-toast',
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      toast works!
-    </p>
-  `,
-  styles: ``
+  template: ` <p>toast works good!</p> `,
+  styles: ``,
 })
-export class ToastComponent {
-
-}
+export class ToastComponent {}
