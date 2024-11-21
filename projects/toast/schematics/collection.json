@@ -1,0 +1,9 @@
+{
+  "$schema": "../../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-add": {
+      "description": "Automatically add Toastr and SweetAlert",
+      "factory": "./ng-add/index#ngAdd"
+    }
+  }
+}
